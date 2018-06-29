@@ -3,6 +3,7 @@ package org.gc.manage.dao.util;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 
+//工具类
 public class GeneralUtil {
     //创建长度为20个字符的id
     public static String createId() {
