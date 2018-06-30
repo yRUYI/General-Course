@@ -1,7 +1,5 @@
 package org.gc.manage.entity;
 
-import javax.persistence.criteria.CriteriaBuilder;
-
 @Table(name = "message", caption = "留言")
 public class Message {
     @Column(isId = true, name = "id", caption = "唯一标识符", nullable = false)

@@ -1,16 +1,19 @@
 package org.gc.manage.servlet;
 
+import javax.servlet.http.HttpServlet;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 
-public class LoginServlet extends javax.servlet.http.HttpServlet {
-    protected void doPost(javax.servlet.http.HttpServletRequest request, javax.servlet.http.HttpServletResponse response) throws javax.servlet.ServletException, IOException {
+public class LoginServlet extends HttpServlet {
+    protected void doPost(HttpServletRequest request, HttpServletResponse response) throws IOException {
         System.out.println(request.getParameter("username"));
         System.out.println(request.getParameter("password"));
 
         response.sendRedirect("html/main.html");
     }
 
-    protected void doGet(javax.servlet.http.HttpServletRequest request, javax.servlet.http.HttpServletResponse response) throws javax.servlet.ServletException, IOException {
+    protected void doGet(HttpServletRequest request, HttpServletResponse response) throws IOException {
 
     }
 }
