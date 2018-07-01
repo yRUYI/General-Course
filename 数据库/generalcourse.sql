@@ -11,7 +11,7 @@
  Target Server Version : 50720
  File Encoding         : 65001
 
- Date: 30/06/2018 19:04:40
+ Date: 30/06/2018 22:15:12
 */
 
 SET NAMES utf8mb4;
@@ -106,7 +106,7 @@ CREATE TABLE `message`  (
   `employeeID` char(20) CHARACTER SET utf8 COLLATE utf8_general_ci NULL DEFAULT NULL,
   `replyTime` datetime(0) NULL DEFAULT NULL,
   `status` int(11) NULL DEFAULT NULL,
-  `columnID` char(20) CHARACTER SET utf8 COLLATE utf8_general_ci NULL DEFAULT NULL,
+  `moduleID` char(20) CHARACTER SET utf8 COLLATE utf8_general_ci NULL DEFAULT NULL,
   PRIMARY KEY (`id`) USING BTREE
 ) ENGINE = InnoDB CHARACTER SET = utf8 COLLATE = utf8_general_ci ROW_FORMAT = Dynamic;
 

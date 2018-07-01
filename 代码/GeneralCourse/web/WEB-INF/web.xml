@@ -6,7 +6,7 @@
 
     <servlet>
         <servlet-name>LoginServlet</servlet-name>
-        <servlet-class>org.gc.manage.servlet.LoginServlet</servlet-class>
+        <servlet-class>org.gc.manage.controller.LoginServlet</servlet-class>
     </servlet>
     <servlet-mapping>
         <servlet-name>LoginServlet</servlet-name>

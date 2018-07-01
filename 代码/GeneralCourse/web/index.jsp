@@ -11,6 +11,6 @@
     <title>$Title$</title>
   </head>
   <body>
-  $END$
+  <a href="html/login.html">登录</a>
   </body>
 </html>
