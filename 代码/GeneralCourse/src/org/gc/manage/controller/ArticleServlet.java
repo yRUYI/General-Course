@@ -1,7 +1,7 @@
 package org.gc.manage.controller;
 
 import com.alibaba.fastjson.JSON;
-import org.gc.manage.service.ModuleService;
+import org.gc.manage.service.ArticleService;
 
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
@@ -13,28 +13,35 @@ import java.sql.SQLException;
 import java.util.HashMap;
 import java.util.List;
 
-@WebServlet(name = "ModuleServlet", urlPatterns = "/Module")
-public class ModuleServlet extends HttpServlet {
-    ModuleService moduleService = new ModuleService();
+@WebServlet(name = "ArticleServlet", urlPatterns = "/Article")
+public class ArticleServlet extends HttpServlet {
+    ArticleService articleService = new ArticleService();
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         String type = request.getParameter("type");
-        String employeeId = request.getParameter("employeeId");
 
-        if (type.equals("getSonModule")) {
-            String level = request.getParameter("level");
-            String parentId = request.getParameter("parentId");
+        System.out.println();
+        if (type.equals("review")) {
             try {
-                List<HashMap<String, String>> list = moduleService.getSonModules(level, parentId, employeeId, request);
+                List<HashMap<String, String>> list = articleService.getReviewArticle(request);
 
                 response.setContentType("text/html;charset=UTF-8");
                 response.getWriter().print(JSON.toJSON(list));
             } catch (SQLException e) {
                 e.printStackTrace();
             }
-        } else if (type.equals("getModule")){
-            List<HashMap<String, String>> list = null;
+        } else if (type.equals("manage")) {
             try {
-                list = moduleService.getModules(employeeId, request);
+                List<HashMap<String, String>> list = articleService.getArticle(request);
+
+                response.setContentType("text/html;charset=UTF-8");
+                response.getWriter().print(JSON.toJSON(list));
+            } catch (SQLException e) {
+                e.printStackTrace();
+            }
+        } else if (type.equals("getArticleById")) {
+            try {
+                String id = request.getParameter("id");
+                List<HashMap<String, String>> list = articleService.getArticleById(id, request);
 
                 response.setContentType("text/html;charset=UTF-8");
                 response.getWriter().print(JSON.toJSON(list));
@@ -45,13 +52,6 @@ public class ModuleServlet extends HttpServlet {
     }
 
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-        try {
-            List<HashMap<String, String>> list = moduleService.getModules(request);
 
-            response.setContentType("text/html;charset=UTF-8");
-            response.getWriter().print(JSON.toJSON(list));
-        } catch (SQLException e) {
-            e.printStackTrace();
-        }
     }
 }

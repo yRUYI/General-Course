@@ -18,8 +18,9 @@
 
 </head>
 
-<body style="background:url(../images/topbg.gif) repeat-x;">
+<body>
 
+<div style="width:100%; height: 88px; margin-top: 88px; background:url(../images/topbg.gif) repeat-x;">
     <div class="topleft">
     <a href="main.html" target="_parent"><img src="../images/logo.png" title="系统首页" /></a>
     </div>
@@ -34,22 +35,41 @@
     <!--</ul>-->
             
     <div class="topright">    
-    <ul>
-    <!--<li><span><img src="images/help.png" title="帮助"  class="helpimg"/></span><a href="#">帮助</a></li>-->
-    <li><a href="#">关于</a></li>
-    <li><a href="login.html" target="_parent">退出</a></li>
-    </ul>
-     
-    <div class="user">
-    <span id="userName" ></span>
-        <span id="employeeID" style="display: none"></span>
-    <!--<i>消息</i>-->
-    <!--<b>5</b>-->
-    </div>    
+        <ul>
+        <!--<li><span><img src="images/help.png" title="帮助"  class="helpimg"/></span><a href="#">帮助</a></li>-->
+            <li><a href="#">关于</a></li>
+            <li><a href="login.html" target="_parent">退出</a></li>
+        </ul>
+
+        <div class="user">
+        <span id="userName" ></span>
+            <span id="employeeID" style="display: none"></span>
+        <!--<i>消息</i>-->
+        <!--<b>5</b>-->
+        </div>
     
     </div>
+</div>
 
-    <script language="JavaScript" src="../js/top.js"></script>
+<div  style="width: 187px;height: 100%; padding-top: 88px;">
+    <div style="width: 187px;height: 40px; background:#f0f9fd;">
+        <div class="lefttop" id="mainModule"><span></span></div>
+    </div>
+
+
+    <dl class="leftmenu" id="module">
+
+    </dl>
+
+</div>
+
+<div id="content">
+
+
+</div>
+
+
+    <!--<script language="JavaScript" src="../js/top.js"></script>-->
     <script language="JavaScript" src="../js/main.js"></script>
 </body>
 </html>

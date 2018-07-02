@@ -24,7 +24,7 @@ public class LoginServlet extends HttpServlet {
         try {
             int type = login.login(username, password, request);
             if (type == 0) {
-                response.sendRedirect ("html/main.html");
+                response.sendRedirect ("html/test.html");
             } else {
                 response.sendRedirect("html/login.html");
             }

@@ -78,7 +78,7 @@ h2{font-weight:normal;}
 .lefttop span{margin-left:8px; margin-top:10px;margin-right:8px; background:url(../images/leftico.png) no-repeat; width:20px; height:21px;float:left;}
 .leftmenu{width:187px;padding-bottom: 9999px;margin-bottom: -9999px; overflow:hidden; background:url(../images/leftline.gif) repeat-y right;}
 .leftmenu dd{background:url(../images/leftmenubg.gif) repeat-x;line-height:35px;font-weight:bold;font-size:14px;border-right:solid 1px #b7d5df;}
-.leftmenu dd span{float:left;margin:10px 8px 0 12px;}
+.leftmenu dd span{float:left;margin:0 8px 0 12px;}
 .leftmenu dd .menuson{display:none;}
 .leftmenu dd:first-child .menuson{display:block;}
 .menuson {line-height:30px; font-weight:normal; }
@@ -94,7 +94,7 @@ h2{font-weight:normal;}
 
 /*right.html*/
 .place{height:40px; background:url(../images/righttop.gif) repeat-x;}
-.place span{line-height:40px; font-weight:bold;float:left; margin-left:12px;}
+.place span{line-height:40px; font-weight:bold;float:left; padding-left:12px;}
 .placeul li{float:left; line-height:40px; padding-left:7px; padding-right:12px; background:url(../images/rlist.gif) no-repeat right;}
 .placeul li:last-child{background:none;}
 .rightinfo{padding:8px;}
