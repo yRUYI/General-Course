@@ -1,0 +1,62 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="gb2312">
+<title>教学资源</title>
+<link href="../css/index.css" rel="stylesheet" type="text/css">
+<link href="../css/main.css" rel="stylesheet" type="text/css">
+<!--[if lt IE 9]>
+<script src="js/modernizr.js"></script>
+<![endif]-->
+<script type="text/javascript" src="js/jquery.js"></script>
+<script type="text/javascript" src="js/js.js"></script>
+</head>
+<body>
+<header>
+    <div id="logo">
+        <img src="../Picture/logo.png">
+        <div class="title">精品课程</div>
+        <ul class="search">
+            <form name="SearchForm" method="post" action="Search.asp" onSubmit="return doSubmit()">
+                <input name="SearchKey" type="text" class="input_text"id="SearchKey" value="请输入关键词" onfocus="if(this.value=='请输入关键词'){this.value=''};this.style.color='black';" onblur="if(this.value==''||this.value=='请输入关键词'){this.value='请输入关键词';this.style.color='#DFDFDF';}"/>
+                <input type="submit" name="Submit" value="" class="input_submit" />
+            </form>
+        </ul>
+    </div>
+    <div class="banner"><img src="./Picture/page.jpg"></div>
+    <nav class="topnav" id="topnav">
+        <a href="index.html" target="_blank">网站首页</a>
+        <a href="about.html" target="_blank">课程介绍</a>
+        <a href="#" target="_blank">教学团队</a>
+        <a href="#" target="_blank">课程建设</a>
+        <a href="caselist.html" target="_blank">课程资源</a>
+        <a href="question&answer.html" target="_blank">问题与答疑</a>
+        <a href="#" target="_blank">课程研究</a>
+    </nav>
+    <script src="js/tab.js"></script>
+</header>
+<div class="blank"></div>
+<article class="con_content">
+  <div class="con_left">
+    <ul>
+      <li><a href="/">教学课件</a></li>
+      <li><a href="/">教学视频</a></li>
+
+    </ul>
+  </div>
+  <div class="about_box">
+    <h2 class="nh1"><span>您现在的位置是：<a href="/" target="_blank">网站首页</a>>><a href="#" target="_blank">课程资源</a></span>
+        <b>课程资源</b></h2>
+    <ul class=" case_list">
+
+    </ul>  
+    <div class="pagelist">页次：1/1 每页25 总数10<a href="/">首页</a><a href="/">上一页</a><a href="/">下一页</a><a href="/">尾页</a></div>
+  </div>
+  <div class="blank"></div>
+</article>
+
+<footer>
+    <p style="">重庆理工大学计算机科学与工程学院版权所有<br>联系地址：重庆市巴南区红光大道69号（邮编：400054） 联系电话：（023）68667334 </p>
+</footer>
+</body>
+</html>
