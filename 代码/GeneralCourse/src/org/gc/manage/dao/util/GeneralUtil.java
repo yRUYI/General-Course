@@ -1,5 +1,12 @@
 package org.gc.manage.dao.util;
 
+import org.gc.manage.entity.Permission;
+import org.gc.manage.entity.RolePermission;
+import org.gc.manage.entity.SonModule;
+import org.gc.manage.entity.Table;
+
+import java.sql.ResultSet;
+import java.sql.SQLException;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 
@@ -28,7 +35,15 @@ public class GeneralUtil {
 
 
 
-    public static void main(String[] args) {
+    public static void main(String[] args) throws SQLException {
 
+        ResultSet resultSet = DBUtil.query("select id from " + Permission.class.getAnnotation(Table.class).name());
+        while (resultSet.next()) {
+            String id = createId();
+            String sql = "insert into " + RolePermission.class.getAnnotation(Table.class).name() + "(id, roleId, permissionId) " +
+                    "values('" + id + "', '15302463133562562266', '" + resultSet.getString(1) + "')";
+            System.out.println(sql);
+            DBUtil.execute(sql);
+        }
     }
 }

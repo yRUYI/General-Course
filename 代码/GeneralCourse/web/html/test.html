@@ -3,8 +3,294 @@
 <head>
     <meta charset="UTF-8">
     <title>测试</title>
+
+    <link href="../css/style.css" rel="stylesheet" type="text/css" />
+    <link href="../css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+    <script language="JavaScript" src="../js/jquery.min.js"></script>
+    <script language="JavaScript" src="../js/bootstrap.min.js"></script>
 </head>
 <body>
-跑通了吗？？？
+<div class="col-md-12 column"  style="background:url(../images/topbg.gif) repeat-x;">
+    <!--顶部-->
+    <div class="topleft">
+        <a href="main.html" target="_parent"><img src="../images/logo.png" title="系统首页" /></a>
+    </div>
+
+    <div class="topright">
+        <ul>
+            <!--<li><span><img src="images/help.png" title="帮助"  class="helpimg"/></span><a href="#">帮助</a></li>-->
+            <li><a href="#">关于</a></li>
+            <li><a href="login.html" target="_parent">退出</a></li>
+        </ul>
+
+        <div class="user">
+            <span id="userName" ></span>
+            <span id="employeeID" style="display: none"></span>
+            <!--<i>消息</i>-->
+            <!--<b>5</b>-->
+        </div>
+
+    </div>
+</div>
+<div  style="width: 187px;height: 100%; float: left; background:#f0f9fd;">
+    <div style="width: 187px;height: 40px;">
+        <div class="lefttop" id="mainModule"><span></span></div>
+    </div>
+
+
+    <dl class="leftmenu" id="module">
+
+    </dl>
+
+</div>
+
+<div style="width: 1160px; height: 100%; float: left;">
+    <div class="place">
+        <span>位置：</span>
+        <ul class="placeul" id="currentPlace" style="margin-bottom: 0">
+            <!--<li><a href="#">首页</a></li>-->
+        </ul>
+    </div>
+    <div class="container" id="content">
+
+    </div>
+</div>
+
+<!-------------------------------------------栏目管理--------------------------------------->
+<!--编辑栏目-->
+<!-- 模态框（Modal） -->
+<div class="modal fade" id="editColumnModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal"
+                        aria-hidden="true">×
+                </button>
+                <h4 class="modal-title" id="myModalLabel">
+                    模态框（Modal）标题
+                </h4>
+            </div>
+            <div class="modal-body">
+                <div class="input-group">
+                    <span class="input-group-addon">标识</span>
+                    <input type="text" id="editColumnId" disabled class="form-control" placeholder="twitterhandle">
+                </div>
+                <div class="input-group">
+                    <span class="input-group-addon">名称</span>
+                    <input type="text" id="editColumnName" class="form-control" placeholder="twitterhandle">
+                </div>
+                <div class="input-group">
+                    <span class="input-group-addon">级别</span>
+                    <input type="text" id="editColumnLevel" disabled class="form-control" placeholder="twitterhandle">
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default"
+                        data-dismiss="modal">关闭
+                </button>
+                <button type="button" class="btn btn-primary" id="sureEditColumn">
+                    提交更改
+                </button>
+            </div>
+        </div><!-- /.modal-content -->
+    </div><!-- /.modal-dialog -->
+</div><!-- /.modal -->
+<!--查看栏目-->
+<!-- 模态框（Modal） -->
+<div class="modal fade" id="lookColumnModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal"
+                        aria-hidden="true">×
+                </button>
+                <h4 class="modal-title">
+                    查看栏目
+                </h4>
+            </div>
+            <div class="modal-body">
+                <div class="input-group">
+                    <span class="input-group-addon">标识</span>
+                    <input type="text" id="lookColumnId" disabled class="form-control" placeholder="twitterhandle">
+                </div>
+                <div class="input-group">
+                    <span class="input-group-addon">名称</span>
+                    <input type="text" id="lookColumnName" disabled class="form-control" placeholder="twitterhandle">
+                </div>
+                <div class="input-group">
+                    <span class="input-group-addon">级别</span>
+                    <input type="text" id="lookColumnLevel" disabled class="form-control" placeholder="twitterhandle">
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default"
+                        data-dismiss="modal">关闭
+                </button>
+            </div>
+        </div><!-- /.modal-content -->
+    </div><!-- /.modal-dialog -->
+</div><!-- /.modal -->
+
+<!-------------------------------------------留言管理--------------------------------------->
+<!--回复留言-->
+<!-- 模态框（Modal） -->
+<div class="modal fade" id="editMessageModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal"
+                        aria-hidden="true">×
+                </button>
+                <h4 class="modal-title" id="myModalLabel">
+                    回复留言
+                </h4>
+            </div>
+            <div class="modal-body">
+                <div class="input-group">
+                    <span class="input-group-addon">标识</span>
+                    <input type="text" id="editMessageId" disabled class="form-control">
+                </div>
+                <div class="input-group">
+                    <span class="input-group-addon">内容</span>
+                    <input type="text" id="editMessageContent" class="form-control">
+                </div>
+                <div class="input-group">
+                    <span class="input-group-addon">留言时间</span>
+                    <input type="text" id="editMessageTime" disabled class="form-control">
+                </div>
+                <div class="input-group">
+                    <span class="input-group-addon">回复内容</span>
+                    <input type="text" id="editReply" class="form-control">
+                </div>
+                <div class="input-group">
+                    <span class="input-group-addon">回复人</span>
+                    <input type="text" id="editReplyEmployee" disabled class="form-control">
+                </div>
+                <div class="input-group">
+                    <span class="input-group-addon">回复时间</span>
+                    <input type="text" id="editReplyTime" disabled class="form-control">
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default"
+                        data-dismiss="modal">关闭
+                </button>
+                <button type="button" class="btn btn-primary" id="sureEditMessage">
+                    确认回复
+                </button>
+            </div>
+        </div><!-- /.modal-content -->
+    </div><!-- /.modal-dialog -->
+</div><!-- /.modal -->
+
+<!-------------------------------------------文章管理--------------------------------------->
+<!--编辑文章-->
+<!-- 模态框（Modal） -->
+<div class="modal fade" id="editArticleModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal"
+                        aria-hidden="true">×
+                </button>
+                <h4 class="modal-title" id="myModalLabel">
+                    编辑文章
+                </h4>
+            </div>
+            <div class="modal-body">
+                <div class="input-group">
+                    <span class="input-group-addon">标识</span>
+                    <input type="text" id="editArticleId" disabled class="form-control" placeholder="twitterhandle">
+                </div>
+                <div class="input-group">
+                    <span class="input-group-addon">标题</span>
+                    <input type="text" id="editArticleTitle" class="form-control" placeholder="twitterhandle">
+                </div>
+                <div class="input-group">
+                    <span class="input-group-addon">作者</span>
+                    <input type="text" id="editArticleAuthor" class="form-control" placeholder="twitterhandle">
+                </div>
+                <div class="input-group">
+                    <span class="input-group-addon">内容</span>
+                    <input type="text" id="editArticleContent" class="form-control" placeholder="twitterhandle">
+                </div>
+                <div class="input-group">
+                    <span class="input-group-addon">创建时间</span>
+                    <input type="text" id="editArticleTime" class="form-control" placeholder="twitterhandle">
+                </div>
+                <div class="input-group">
+                    <span class="input-group-addon">所属栏目</span>
+                    <input type="text" id="editArticleColumn" disabled class="form-control" placeholder="twitterhandle">
+                </div>
+                <div class="input-group">
+                    <span class="input-group-addon">是否置顶</span>
+                    <input type="text" id="editArticleTop" class="form-control" placeholder="twitterhandle">
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default"
+                        data-dismiss="modal">关闭
+                </button>
+                <button type="button" class="btn btn-primary" id="sureEditArticle">
+                    提交更改
+                </button>
+            </div>
+        </div><!-- /.modal-content -->
+    </div><!-- /.modal-dialog -->
+</div><!-- /.modal -->
+<!--查看栏目-->
+<!-- 模态框（Modal） -->
+<div class="modal fade" id="lookArticleModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal"
+                        aria-hidden="true">×
+                </button>
+                <h4 class="modal-title" id="myModalLabel">
+                    查看文章
+                </h4>
+            </div>
+            <div class="modal-body">
+                <div class="input-group">
+                    <span class="input-group-addon">标识</span>
+                    <input type="text" id="lookArticleId" disabled class="form-control" placeholder="twitterhandle">
+                </div>
+                <div class="input-group">
+                    <span class="input-group-addon">标题</span>
+                    <input type="text" id="lookArticleTitle" disabled class="form-control" placeholder="twitterhandle">
+                </div>
+                <div class="input-group">
+                    <span class="input-group-addon">作者</span>
+                    <input type="text" id="lookArticleAuthor" disabled class="form-control" placeholder="twitterhandle">
+                </div>
+                <div class="input-group">
+                    <span class="input-group-addon">内容</span>
+                    <input type="text" id="lookArticleContent" disabled class="form-control" placeholder="twitterhandle">
+                </div>
+                <div class="input-group">
+                    <span class="input-group-addon">创建时间</span>
+                    <input type="text" id="lookArticleTime" disabled class="form-control" placeholder="twitterhandle">
+                </div>
+                <div class="input-group">
+                    <span class="input-group-addon">所属栏目</span>
+                    <input type="text" id="lookArticleColumn" disabled class="form-control" placeholder="twitterhandle">
+                </div>
+                <div class="input-group">
+                    <span class="input-group-addon">是否置顶</span>
+                    <input type="text" id="lookArticleTop" disabled class="form-control" placeholder="twitterhandle">
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default"
+                        data-dismiss="modal">关闭
+                </button>
+            </div>
+        </div><!-- /.modal-content -->
+    </div><!-- /.modal-dialog -->
+</div><!-- /.modal -->
+
+
+    <script language="JavaScript" src="../js/main.js"></script>
 </body>
 </html>

@@ -7,6 +7,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3bea2937-f703-45b2-8a0f-e193a75d8e1e" name="Default" comment="">
+<<<<<<< HEAD
       <change beforePath="" afterPath="$PROJECT_DIR$/web/Picture/book1.jpg" />
       <change beforePath="" afterPath="$PROJECT_DIR$/web/Picture/book2.jpg" />
       <change beforePath="" afterPath="$PROJECT_DIR$/web/Picture/book3.jpg" />
@@ -39,6 +40,25 @@
       <change beforePath="$PROJECT_DIR$/web/html/test.html" afterPath="" />
       <change beforePath="$PROJECT_DIR$/web/index.jsp" afterPath="" />
       <change beforePath="$PROJECT_DIR$/web/js/jquery.min.js" afterPath="" />
+=======
+      <change beforePath="$PROJECT_DIR$/../GeneralCourse/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../GeneralCourse/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/GeneralCourseReception1.iml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GeneralCourseReception_war_exploded/WEB-INF/classes/org/gc/manage/dao/util/DBUtil.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GeneralCourseReception_war_exploded/WEB-INF/classes/org/gc/manage/dao/util/GeneralUtil.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GeneralCourseReception_war_exploded/WEB-INF/lib/fastjson-1.2.36.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GeneralCourseReception_war_exploded/WEB-INF/lib/mysql-connector-java-5.0.8-bin.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GeneralCourseReception_war_exploded/WEB-INF/web.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GeneralCourseReception_war_exploded/css/bootstrap-table.min.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GeneralCourseReception_war_exploded/css/bootstrap.min.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GeneralCourseReception_war_exploded/css/sweet-alert.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GeneralCourseReception_war_exploded/html/test.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GeneralCourseReception_war_exploded/index.jsp" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GeneralCourseReception_war_exploded/js/bootstrap.min.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GeneralCourseReception_war_exploded/js/jquery.min.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GeneralCourseReception_war_exploded/js/sweet-alert.min.js" afterPath="" />
+>>>>>>> 737640c5b17353dad12fe093dce0ca635250a8fe
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -53,8 +73,33 @@
       <file leaf-file-name="about.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/web/html/about.html">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state relative-caret-position="19">
               <caret line="17" column="16" lean-forward="false" selection-start-line="17" selection-start-column="16" selection-end-line="17" selection-end-column="16" />
+=======
+            <state relative-caret-position="0">
+              <caret line="7" column="10" lean-forward="false" selection-start-line="7" selection-start-column="10" selection-end-line="7" selection-end-column="10" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="GeneralUtil.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/org/gc/manage/dao/util/GeneralUtil.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="225">
+              <caret line="27" column="5" lean-forward="true" selection-start-line="27" selection-start-column="5" selection-end-line="27" selection-end-column="5" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="243">
+              <caret line="9" column="7" lean-forward="false" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
+>>>>>>> 737640c5b17353dad12fe093dce0ca635250a8fe
               <folding />
             </state>
           </provider>
@@ -83,6 +128,7 @@
       <list>
         <option value="$PROJECT_DIR$/web/html/test.html" />
         <option value="$PROJECT_DIR$/src/org/gc/manage/dao/util/GeneralUtil.java" />
+<<<<<<< HEAD
         <option value="$PROJECT_DIR$/src/org/gc/manage/dao/util/DBUtil.java" />
         <option value="$PROJECT_DIR$/web/html/HomePage.html" />
         <option value="$PROJECT_DIR$/web/html/caselist.html" />
@@ -93,6 +139,9 @@
         <option value="$PROJECT_DIR$/web/html/introduction.html" />
         <option value="$PROJECT_DIR$/web/html/question&amp;answer.html" />
         <option value="$PROJECT_DIR$/web/index.jsp" />
+=======
+        <option value="$PROJECT_DIR$/.gitignore" />
+>>>>>>> 737640c5b17353dad12fe093dce0ca635250a8fe
       </list>
     </option>
   </component>
@@ -131,9 +180,15 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+<<<<<<< HEAD
       <pane id="Scratches" />
       <pane id="AndroidView" />
       <pane id="Scope" />
+=======
+      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
+      <pane id="Scratches" />
+>>>>>>> 737640c5b17353dad12fe093dce0ca635250a8fe
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -144,6 +199,7 @@
             <path>
               <item name="GeneralCourseReception" type="b2602c69:ProjectViewProjectNode" />
               <item name="GeneralCourseReception" type="462c0819:PsiDirectoryNode" />
+<<<<<<< HEAD
               <item name="web" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -151,23 +207,38 @@
               <item name="GeneralCourseReception" type="462c0819:PsiDirectoryNode" />
               <item name="web" type="462c0819:PsiDirectoryNode" />
               <item name="css" type="462c0819:PsiDirectoryNode" />
+=======
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+>>>>>>> 737640c5b17353dad12fe093dce0ca635250a8fe
             </path>
             <path>
               <item name="GeneralCourseReception" type="b2602c69:ProjectViewProjectNode" />
               <item name="GeneralCourseReception" type="462c0819:PsiDirectoryNode" />
               <item name="web" type="462c0819:PsiDirectoryNode" />
+<<<<<<< HEAD
               <item name="html" type="462c0819:PsiDirectoryNode" />
+=======
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+>>>>>>> 737640c5b17353dad12fe093dce0ca635250a8fe
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+<<<<<<< HEAD
       <pane id="PackagesPane" />
+=======
+      <pane id="Scope" />
+>>>>>>> 737640c5b17353dad12fe093dce0ca635250a8fe
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+<<<<<<< HEAD
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+=======
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+>>>>>>> 737640c5b17353dad12fe093dce0ca635250a8fe
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -176,7 +247,7 @@
     <property name="Repository.Attach.Sources" value="false" />
     <property name="project.structure.last.edited" value="Global Libraries" />
     <property name="project.structure.proportion" value="0.15" />
-    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="project.structure.side.proportion" value="0.24712643" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
   </component>
   <component name="RecentsManager">
@@ -280,6 +351,7 @@
       <listeners />
     </configuration>
     <configuration name="GeneralCourseReception" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.5.29" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="UPDATING_POLICY" value="restart-server" />
       <deployment>
         <artifact name="GeneralCourseReception:war exploded">
           <settings>
@@ -372,20 +444,32 @@
       <updated>1530168991233</updated>
       <workItem from="1530168994936" duration="1000" />
       <workItem from="1530169014330" duration="402000" />
+<<<<<<< HEAD
       <workItem from="1530248689140" duration="649000" />
       <workItem from="1530254035742" duration="813000" />
       <workItem from="1530260682231" duration="975000" />
       <workItem from="1530511438037" duration="269000" />
       <workItem from="1530519058420" duration="1798000" />
+=======
+      <workItem from="1530248689140" duration="811000" />
+      <workItem from="1530333898601" duration="1570000" />
+>>>>>>> 737640c5b17353dad12fe093dce0ca635250a8fe
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
+<<<<<<< HEAD
     <option name="totallyTimeSpent" value="4907000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
     <editor active="true" />
+=======
+    <option name="totallyTimeSpent" value="2784000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1386" height="788" extended-state="0" />
+>>>>>>> 737640c5b17353dad12fe093dce0ca635250a8fe
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -396,12 +480,20 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5374046" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+<<<<<<< HEAD
+=======
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3816794" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+>>>>>>> 737640c5b17353dad12fe093dce0ca635250a8fe
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.09076433" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+<<<<<<< HEAD
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2591508" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+=======
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26093516" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+>>>>>>> 737640c5b17353dad12fe093dce0ca635250a8fe
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -433,6 +525,7 @@
     <entry file="file://$PROJECT_DIR$/web/html/HomePage.html" />
     <entry file="file://$PROJECT_DIR$/src/org/gc/manage/dao/util/GeneralUtil.java">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="437">
           <caret line="24" column="17" lean-forward="false" selection-start-line="24" selection-start-column="17" selection-end-line="24" selection-end-column="17" />
         </state>
@@ -443,6 +536,25 @@
     <entry file="file://$PROJECT_DIR$/web/css/sweet-alert.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-3116">
+=======
+        <state relative-caret-position="189">
+          <caret line="7" column="10" lean-forward="false" selection-start-line="7" selection-start-column="10" selection-end-line="7" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/gc/manage/dao/util/GeneralUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="621">
+          <caret line="24" column="17" lean-forward="false" selection-start-line="24" selection-start-column="17" selection-end-line="24" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/html/test.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+>>>>>>> 737640c5b17353dad12fe093dce0ca635250a8fe
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
@@ -454,7 +566,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -468,8 +579,13 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/web/html/caselist.html">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="304">
           <caret line="16" column="20" lean-forward="false" selection-start-line="16" selection-start-column="20" selection-end-line="16" selection-end-column="20" />
+=======
+        <state relative-caret-position="0">
+          <caret line="7" column="10" lean-forward="false" selection-start-line="7" selection-start-column="10" selection-end-line="7" selection-end-column="10" />
+>>>>>>> 737640c5b17353dad12fe093dce0ca635250a8fe
           <folding />
         </state>
       </provider>
@@ -508,12 +624,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/org/gc/manage/dao/util/GeneralUtil.java">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="-45">
           <caret line="8" column="37" lean-forward="true" selection-start-line="8" selection-start-column="37" selection-end-line="8" selection-end-column="37" />
+=======
+        <state relative-caret-position="225">
+          <caret line="27" column="5" lean-forward="true" selection-start-line="27" selection-start-column="5" selection-end-line="27" selection-end-column="5" />
+>>>>>>> 737640c5b17353dad12fe093dce0ca635250a8fe
           <folding />
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/src/org/gc/manage/dao/util/DBUtil.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="12">
@@ -542,6 +664,12 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="19">
           <caret line="17" column="16" lean-forward="false" selection-start-line="17" selection-start-column="16" selection-end-line="17" selection-end-column="16" />
+=======
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="9" column="7" lean-forward="false" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
+>>>>>>> 737640c5b17353dad12fe093dce0ca635250a8fe
           <folding />
         </state>
       </provider>
@@ -556,7 +684,7 @@
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.2" />
+                <option value="0.24712643" />
                 <option value="0.5" />
               </list>
             </option>
@@ -565,11 +693,11 @@
       </state>
       <state key="FacetStructureConfigurable.UI">
         <settings>
-          <last-edited>Detection</last-edited>
+          <last-edited>Web</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.2" />
+                <option value="0.24712643" />
               </list>
             </option>
           </splitter-proportions>
@@ -592,7 +720,7 @@
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.2" />
+                <option value="0.24712643" />
               </list>
             </option>
           </splitter-proportions>
@@ -604,7 +732,7 @@
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.2" />
+                <option value="0.24712643" />
               </list>
             </option>
           </splitter-proportions>
@@ -612,11 +740,11 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
-          <last-edited>lib</last-edited>
+          <last-edited>GeneralCourseReception</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.2" />
+                <option value="0.24712643" />
               </list>
             </option>
           </splitter-proportions>
